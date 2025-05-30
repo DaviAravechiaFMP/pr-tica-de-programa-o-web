@@ -1,0 +1,28 @@
+.video-grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.vidOne{
+    justify-content: center;
+    grid-column: 2/ -2;
+}
+.vidTwo{
+    justify-content: center;
+    grid-column: -2/4;
+}
+ .video-grid iframe{
+    width: 39.4vw;
+    height: 40vh;
+ }
+ .video-grid p{
+    width: 39.4vw;
+    height: 5vh;
+ }
+ header{
+    display: flex;
+    justify-content: center;
+ }
+.containerHeader{
+    justify-items: center;
+    justify-content: center;
+}
