@@ -26,3 +26,45 @@
     justify-items: center;
     justify-content: center;
 }
+
+nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+}
+nav img{
+    width: 3vw;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+}
+li{
+    margin: 1vh 4vw;
+}
+button{
+
+    background-color: black;
+    border: hidden;
+}
+a{
+    color: white;
+}
+.containerFear{
+    padding: 10px 0px 7px 0px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;    
+
+}
+.containerImgFear{
+    width: 4vw;
+}
+.containerFearText{
+    width: 55vw;
+}
